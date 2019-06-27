@@ -9,6 +9,12 @@ Primarily, use a conda environment to track packages and requirements needed to 
 Use jupyter lab for bulk of experiments as well as Plotly Dash for visualizations and command line scripts
 for building models and pulling data.
 
+Create the conda environment via command line:
+```
+make create_environment
+source activate japanese_text_analysis
+```
+
 Project Organization
 ------------
 
