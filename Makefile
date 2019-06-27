@@ -27,11 +27,19 @@ requirements: test_environment
 
 ## Conda packages
 conda_packages: requirements
-	conda env update -f environment.yml 
+	conda env update -f environment.yml
+
+
+
+data/raw/200014735.zip:
+	wget -i download_list.txt -P data/raw/
+
+data/raw/genji_data.json:
+	$(PYTHON_INTERPRETER) src/data/get_japanese_text_initiative.py
 
 ## Make Dataset
-data: requirements
-	$(PYTHON_INTERPRETER) src/data/get_japanese_text_initiative.py
+data: requirements data/raw/200014735.zip data/raw/genji_data.json
+	echo "data done"
 
 ## Delete all compiled Python files
 clean:
