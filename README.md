@@ -1,7 +1,13 @@
-Japanese_Text_Analysis
+Japanese Text Analysis Experiments
 ==============================
 
 This is a set of experiments to examine word usage trends in Japanese texts.
+
+Environment
+------------
+Primarily, use a conda environment to track packages and requirements needed to reproduce experiments. 
+Use jupyter lab for bulk of experiments as well as Plotly Dash for visualizations and command line scripts
+for building models and pulling data.
 
 Project Organization
 ------------
