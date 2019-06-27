@@ -4,6 +4,8 @@ channels:
   - defaults
 dependencies:
   - python=3
+  - jupyterlab
+  - ipywidgets
   - pandas
   - umap-learn
   - hdbscan

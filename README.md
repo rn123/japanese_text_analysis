@@ -15,6 +15,11 @@ make create_environment
 source activate japanese_text_analysis
 ```
 
+Should now be able to run Jupyer Lab:
+```
+jupyter lab --notebook-dir=notebooks
+```
+
 Project Organization
 ------------
 
