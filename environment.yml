@@ -1,0 +1,17 @@
+name: japanese_text_analysis
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3
+  - pandas
+  - umap-learn
+  - hdbscan
+  - pip
+  - pip:
+    - pymagnitude
+    - dash
+    - dash-core-components
+    - dash-html-components
+    - dash-renderer
+    - dash-table
