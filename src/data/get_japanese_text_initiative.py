@@ -13,8 +13,8 @@ import unicodedata
 # Japanese Text Initiative
 # Texts of classical Japanese literature are available at the Japanese Text 
 # Initiative sponsored by the University of Virginia: http://jti.lib.virginia.edu/japanese/ 
-
 base_url = 'http://jti.lib.virginia.edu/japanese/genji/'
+
 
 @click.command()
 def main():
