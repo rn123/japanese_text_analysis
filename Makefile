@@ -26,12 +26,12 @@ requirements: test_environment
 	$(PYTHON_INTERPRETER) -m pip install -r requirements.txt
 
 ## Conda packages
-conda_packages: 
+conda_packages: requirements
 	conda env update -f environment.yml 
 
 ## Make Dataset
 data: requirements
-	$(PYTHON_INTERPRETER) src/data/make_dataset.py data/raw data/processed
+	$(PYTHON_INTERPRETER) src/data/get_japanese_text_initiative.py
 
 ## Delete all compiled Python files
 clean:
