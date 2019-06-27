@@ -20,6 +20,15 @@ Should now be able to run Jupyer Lab:
 jupyter lab --notebook-dir=notebooks
 ```
 
+Data
+----
+
+Primary sources of Japanese textual data for experiments:
+
+The text for the "Tale of Genji": [Japanese Text Initiative](http://jti.lib.virginia.edu/japanese/genji/) from the University of Virgninia.
+Images for scroll: [Genji](http://codh.rois.ac.jp/pmjt/book/200014735/200014735.zip).
+[Blog](https://scholarblogs.emory.edu/japanese-text-mining/) and data for Japanese Text Minining.
+
 Project Organization
 ------------
 
