@@ -51,6 +51,7 @@ References
 ----------
 
 Dunning, Ted. A Python Implementation of the Most Commonly Used Variants of the G-Test: Tdunning/Python-Llr. Python, 2019. https://github.com/tdunning/python-llr.
+
 ———. “Finding Structure in Text, Genome and Other Symbolic Sequences.” ArXiv:1207.1847 [Cs], July 8, 2012. http://arxiv.org/abs/1207.1847.
 
 
