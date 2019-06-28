@@ -42,14 +42,14 @@ make background
 Experiments
 -----------
 
-1. Scrape and clean (modern) Japanese text for (源氏物語歌合絵巻)[https://github.com/rn123/japanese_text_analysis/blob/master/notebooks/RN%201.0%20Genji%20Data.ipynb].
-2. (Extracting and clustering significant terms.)[https://github.com/rn123/japanese_text_analysis/blob/master/notebooks/RN%201.0%20Genji%20Clustering%20Significant%20Terms.ipynb]
-3. (Dunning's likelihood ratio test comparing text to background corpus.)[https://github.com/rn123/japanese_text_analysis/blob/master/notebooks/Statistics%20of%20Surprise%20and%20Coincidence.ipynb]
-4. English fiction example (Hobbit)[https://github.com/rn123/japanese_text_analysis/blob/master/notebooks/textual_analysis_hobbit.ipynb]
+1. Scrape and clean (modern) Japanese text for [源氏物語歌合絵巻](https://github.com/rn123/japanese_text_analysis/blob/master/notebooks/RN%201.0%20Genji%20Data.ipynb).
+2. [Extracting and clustering significant terms.](https://github.com/rn123/japanese_text_analysis/blob/master/notebooks/RN%201.0%20Genji%20Clustering%20Significant%20Terms.ipynb)
+3. [Dunning's likelihood ratio test comparing text to background corpus.](https://github.com/rn123/japanese_text_analysis/blob/master/notebooks/Statistics%20of%20Surprise%20and%20Coincidence.ipynb)
+4. English fiction example [Hobbit].(https://github.com/rn123/japanese_text_analysis/blob/master/notebooks/textual_analysis_hobbit.ipynb)
 
 References
 ----------
-(Dunning)[https://aclweb.org/anthology/J93-1003]
+[Dunning](https://aclweb.org/anthology/J93-1003)
 
 Project Organization
 ------------
