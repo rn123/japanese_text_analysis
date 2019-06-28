@@ -43,6 +43,10 @@ Experiments
 -----------
 
 1. Scrape and clean (modern) Japanese text for [源氏物語歌合絵巻](https://github.com/rn123/japanese_text_analysis/blob/master/notebooks/RN%201.0%20Genji%20Data.ipynb).
+
+   This website appears to be a late 90's style site built out of frames and using tables for layout. It may have been generated from a version 
+   of the text stored in [TEI format](https://en.wikipedia.org/wiki/Text_Encoding_Initiative).
+
 2. [Extracting and clustering significant terms.](https://github.com/rn123/japanese_text_analysis/blob/master/notebooks/RN%201.0%20Genji%20Clustering%20Significant%20Terms.ipynb)
 3. [Dunning's likelihood ratio test comparing text to background corpus.](https://github.com/rn123/japanese_text_analysis/blob/master/notebooks/Statistics%20of%20Surprise%20and%20Coincidence.ipynb)
 4. English fiction example, [The Hobbit.](https://github.com/rn123/japanese_text_analysis/blob/master/notebooks/textual_analysis_hobbit.ipynb)
@@ -70,7 +74,7 @@ A Japanese Tokenizer for Business. Contribute to WorksApplications/Sudachi Devel
 
 Takaoka, Kazuma, Sorami Hisamoto, Noriko Kawahara, Miho Sakamoto, Yoshitaka Uchida, and Yuji Matsumoto. “Sudachi: A Japanese Tokenizer for Business,” 2018. https://www.aclweb.org/anthology/papers/L/L18/L18-1355/.
 
-
+“TEI: Text Encoding Initiative.” Accessed June 28, 2019. https://tei-c.org/.
 
 Project Organization
 ------------
