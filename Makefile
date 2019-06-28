@@ -30,6 +30,17 @@ requirements: test_environment
 conda_packages: requirements
 	conda env update -f environment.yml
 
+## jupyterlab config
+jupyterlab:
+	bash src/visualization/jupyter_config.sh
+
+## elasticsearch config
+elasticsearch_config:
+	@mkdir -p src/external
+	python src/data/fetch_elasticsearch.py download
+	python src/data/fetch_elasticsearch.py run
+	python src/models/normalize.py create-elasticsearch-indices
+
 data/raw/sudachi-dictionary-20190531-full.zip data/raw/200014735.zip:
 	wget -i download_list.txt -P data/raw/
 	unzip data/raw/200014735.zip 200014735/image/200014735_00014.jpg -d notebooks/images/
@@ -51,10 +62,6 @@ background: models/cc.ja.300.vec
 data: requirements data/raw/200014735.zip data/raw/genji_data.json data/raw/sudachi-dictionary-20190531-full.zip
 	echo "data done"
 
-## jupyterlab config
-jupyterlab:
-	bash src/visualization/jupyter_config.sh
-
 ## Delete all compiled Python files
 clean:
 	find . -type f -name "*.py[co]" -delete
@@ -74,7 +81,7 @@ endif
 
 ## Download Data from S3
 sync_data_from_s3:
-ifeq (default,$(PROFILE))
+ifeq (default, $(PROFILE))
 	aws s3 sync s3://$(BUCKET)/data/ data/
 else
 	aws s3 sync s3://$(BUCKET)/data/ data/ --profile $(PROFILE)
@@ -82,9 +89,9 @@ endif
 
 ## Set up python interpreter environment
 create_environment:
-ifeq (True,$(HAS_CONDA))
+ifeq (True, $(HAS_CONDA))
 		@echo ">>> Detected conda, creating conda environment."
-ifeq (3,$(findstring 3,$(PYTHON_INTERPRETER)))
+ifeq (3, $(findstring 3,$(PYTHON_INTERPRETER)))
 	conda env create -f environment.yml
 else
 	conda create --name $(PROJECT_NAME) python=2.7

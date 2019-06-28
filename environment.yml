@@ -11,6 +11,8 @@ dependencies:
   - hdbscan
   - gensim
   - jieba
+  - cairosvg
+  - tabulate
   - elasticsearch
   - pip
   - pip:
@@ -22,4 +24,6 @@ dependencies:
     - dash-table
     - plotly-express
     - zhon
+    - segtok
+    - Cihai
     - logzero

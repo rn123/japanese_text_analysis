@@ -1,0 +1,13 @@
+table#kodansha {
+  width: 100%; 
+  background-color: #F9D448;
+}
+
+table#kodansha tr:hover {background-color: #f5f5f5;}
+
+table#kodansha td {color: #963221;}
+table#kodansha caption {
+    caption-side: top;
+    color: white;
+    background-color: #7A140B;
+}

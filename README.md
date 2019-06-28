@@ -63,7 +63,10 @@ Experiments
     * Display word distributions for significant terms/clusters.
 
 3. [Dunning's likelihood ratio test comparing text to background corpus.](https://github.com/rn123/japanese_text_analysis/blob/master/notebooks/Statistics%20of%20Surprise%20and%20Coincidence.ipynb)
+
 4. English fiction example, [The Hobbit.](https://github.com/rn123/japanese_text_analysis/blob/master/notebooks/textual_analysis_hobbit.ipynb)
+
+5. Remembering the Kanji -- Anki statistics and comparison with Kodansha's topical clusters
 
 References
 ----------
