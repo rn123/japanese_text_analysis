@@ -14,7 +14,6 @@ dependencies:
   - pip
   - pip:
     - defopt
-    - pymagnitude
     - dash
     - dash-core-components
     - dash-html-components

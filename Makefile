@@ -24,12 +24,11 @@ endif
 requirements: test_environment
 	$(PYTHON_INTERPRETER) -m pip install -U pip setuptools wheel
 	$(PYTHON_INTERPRETER) -m pip install -r requirements.txt
+	pip install pymagnitude -vvv --no-binary :all:
 
 ## Conda packages
 conda_packages: requirements
 	conda env update -f environment.yml
-
-
 
 data/raw/sudachi-dictionary-20190531-full.zip data/raw/200014735.zip:
 	wget -i download_list.txt -P data/raw/
@@ -40,9 +39,16 @@ data/raw/sudachi-dictionary-20190531-full.zip data/raw/200014735.zip:
 data/raw/genji_data.json:
 	$(PYTHON_INTERPRETER) src/data/get_japanese_text_initiative.py
 
+# data/external/
+# python -m pymagnitude.converter -a -i 
+
 ## Make Dataset
 data: requirements data/raw/200014735.zip data/raw/genji_data.json data/raw/sudachi-dictionary-20190531-full.zip
 	echo "data done"
+
+## jupyterlab config
+jupyterlab:
+	bash src/visualization/jupyter_config.sh
 
 ## Delete all compiled Python files
 clean:
