@@ -9,6 +9,7 @@ dependencies:
   - pandas
   - umap-learn
   - hdbscan
+  - gensim
   - jieba
   - elasticsearch
   - pip
@@ -19,5 +20,6 @@ dependencies:
     - dash-html-components
     - dash-renderer
     - dash-table
+    - plotly-express
     - zhon
     - logzero
