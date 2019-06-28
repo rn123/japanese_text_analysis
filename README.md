@@ -50,9 +50,21 @@ Experiments
 References
 ----------
 
+“Genji Monogatari.” Accessed June 28, 2019. http://jti.lib.virginia.edu/japanese/genji/.
+
+“Japanese Text Mining – Emory University | ECDS | QuanTM | May 30th – June 2nd, 2017.” Accessed June 28, 2019. https://scholarblogs.emory.edu/japanese-text-mining/.
+
+“源氏物語歌合絵巻 | 日本古典籍データセット - ROIS-DS人文学オープンデータ共同利用センター(CODH).” 人文学オープンデータ共同利用センター(CODH). Accessed June 28, 2019. http://codh.rois.ac.jp/pmjt/book/200014735/.
+
+Ortuño, M, P Carpena, P Bernaola-Galván, E Muñoz, and A. M Somoza. “Keyword Detection in Natural Languages and DNA.” Europhysics Letters (EPL) 57, no. 5 (March 2002): 759–64. https://doi.org/10.1209/epl/i2002-00528-3.
+
+“Word Vectors for 157 Languages · FastText.” Accessed June 28, 2019. https://fasttext.cc/index.html.
+
+A Fast, Efficient Universal Vector Embedding Utility Package.: Plasticityai/Magnitude. Python. 2018. Reprint, Plasticity, 2019. https://github.com/plasticityai/magnitude.
+
 Dunning, Ted. A Python Implementation of the Most Commonly Used Variants of the G-Test: Tdunning/Python-Llr. Python, 2019. https://github.com/tdunning/python-llr.
 
-———. “Finding Structure in Text, Genome and Other Symbolic Sequences.” ArXiv:1207.1847 [Cs], July 8, 2012. http://arxiv.org/abs/1207.1847.
+Dunning, Ted. “Finding Structure in Text, Genome and Other Symbolic Sequences.” ArXiv:1207.1847 [Cs], July 8, 2012. http://arxiv.org/abs/1207.1847.
 
 
 Project Organization
