@@ -39,8 +39,13 @@ data/raw/sudachi-dictionary-20190531-full.zip data/raw/200014735.zip:
 data/raw/genji_data.json:
 	$(PYTHON_INTERPRETER) src/data/get_japanese_text_initiative.py
 
-# data/external/
-# python -m pymagnitude.converter -a -i 
+models/cc.ja.300.vec:
+	wget https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ja.300.vec.gz -O models/cc.ja.300.vec.gz
+	gzip -d models/cc.ja.300.vec.gz
+
+## Download and convert background language model.
+background: models/cc.ja.300.vec
+	python -m pymagnitude.converter -a -i models/cc.ja.300.vec -o models/cc.ja.300.magnitude
 
 ## Make Dataset
 data: requirements data/raw/200014735.zip data/raw/genji_data.json data/raw/sudachi-dictionary-20190531-full.zip

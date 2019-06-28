@@ -34,6 +34,11 @@ Pull datasets with command line:
 make data
 ```
 
+For the background language model, the script downloads the [precomputed fasttext word vectors](https://fasttext.cc/docs/en/crawl-vectors.html) and converts them to [`pymagnitude`](https://github.com/plasticityai/magnitude) format. 
+```
+make background
+```
+
 Project Organization
 ------------
 
