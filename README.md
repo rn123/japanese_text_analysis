@@ -50,8 +50,18 @@ Experiments
    *TODO:* 
    * Generate TEI compliant output in order to capture document metadata.
    * Store document in Elasticsearch.
+   * Scrape ancient text in preparation for experiment on word usage differences between modern and ancient Japanese versions of Genji.
 
 2. [Extracting and clustering significant terms.](https://github.com/rn123/japanese_text_analysis/blob/master/notebooks/RN%201.0%20Genji%20Clustering%20Significant%20Terms.ipynb)
+
+    Standard practice:
+    * Extract significant terms and weights using [word level statistics](https://doi.org/10.1209/epl/i2002-00528-3).
+    * Display Zipf's law chart showing rare words.
+    * Lookup precomputed word vectors (and optionally concatenate with local word vectors).
+    * Reduce dimension (300 -> 10) using UMAP. 
+    * Cluster reduced word embeddings into topical term lists.
+    * Display word distributions for significant terms/clusters.
+
 3. [Dunning's likelihood ratio test comparing text to background corpus.](https://github.com/rn123/japanese_text_analysis/blob/master/notebooks/Statistics%20of%20Surprise%20and%20Coincidence.ipynb)
 4. English fiction example, [The Hobbit.](https://github.com/rn123/japanese_text_analysis/blob/master/notebooks/textual_analysis_hobbit.ipynb)
 
