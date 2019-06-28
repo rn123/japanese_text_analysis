@@ -31,14 +31,17 @@ conda_packages: requirements
 
 
 
-data/raw/200014735.zip:
+data/raw/sudachi-dictionary-20190531-full.zip data/raw/200014735.zip:
 	wget -i download_list.txt -P data/raw/
+	unzip data/raw/200014735.zip 200014735/image/200014735_00014.jpg -d notebooks/images/
+	unzip -j  data/raw/sudachi-dictionary-20190531-full.zip sudachi-dictionary-20190531/system_full.dic -d src/sudachipy/resources/
+	sed -i 1 's/system.dic/system_full.dic/' src/sudachipy/resources/sudachi.json
 
 data/raw/genji_data.json:
 	$(PYTHON_INTERPRETER) src/data/get_japanese_text_initiative.py
 
 ## Make Dataset
-data: requirements data/raw/200014735.zip data/raw/genji_data.json
+data: requirements data/raw/200014735.zip data/raw/genji_data.json data/raw/sudachi-dictionary-20190531-full.zip
 	echo "data done"
 
 ## Delete all compiled Python files

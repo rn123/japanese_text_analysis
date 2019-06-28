@@ -12,7 +12,4 @@ dash
 dash-html-components
 dash-core-components
 dash-table
-pandas
-umap-learn
-hdbscan
-pymagnitude
+-e git+git://github.com/WorksApplications/SudachiPy@develop#egg=SudachiPy
