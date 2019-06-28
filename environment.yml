@@ -9,11 +9,16 @@ dependencies:
   - pandas
   - umap-learn
   - hdbscan
+  - jieba
+  - elasticsearch
   - pip
   - pip:
+    - defopt
     - pymagnitude
     - dash
     - dash-core-components
     - dash-html-components
     - dash-renderer
     - dash-table
+    - zhon
+    - logzero
