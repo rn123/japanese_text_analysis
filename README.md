@@ -66,6 +66,11 @@ Dunning, Ted. A Python Implementation of the Most Commonly Used Variants of the 
 
 Dunning, Ted. “Finding Structure in Text, Genome and Other Symbolic Sequences.” ArXiv:1207.1847 [Cs], July 8, 2012. http://arxiv.org/abs/1207.1847.
 
+A Japanese Tokenizer for Business. Contribute to WorksApplications/Sudachi Development by Creating an Account on GitHub. Java. 2017. Reprint, Works Applications, 2019. https://github.com/WorksApplications/Sudachi.
+
+Takaoka, Kazuma, Sorami Hisamoto, Noriko Kawahara, Miho Sakamoto, Yoshitaka Uchida, and Yuji Matsumoto. “Sudachi: A Japanese Tokenizer for Business,” 2018. https://www.aclweb.org/anthology/papers/L/L18/L18-1355/.
+
+
 
 Project Organization
 ------------
