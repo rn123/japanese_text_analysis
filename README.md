@@ -29,6 +29,11 @@ Primary sources of Japanese textual data for experiments:
 * Images for scroll: [Genji](http://codh.rois.ac.jp/pmjt/book/200014735/200014735.zip).
 * [Blog](https://scholarblogs.emory.edu/japanese-text-mining/) and data for Japanese Text Minining.
 
+Pull datasets with command line:
+```
+make data
+```
+
 Project Organization
 ------------
 
