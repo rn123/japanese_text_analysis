@@ -40,6 +40,7 @@ elasticsearch_config:
 	python src/data/fetch_elasticsearch.py download
 	python src/data/fetch_elasticsearch.py run
 	python src/models/normalize.py create-elasticsearch-indices
+	sudo gem install pragmatic_segmenter
 
 data/raw/sudachi-dictionary-20190531-full.zip data/raw/200014735.zip:
 	wget -i download_list.txt -P data/raw/
