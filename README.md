@@ -66,7 +66,19 @@ Experiments
 
 4. English fiction example, [The Hobbit.](https://github.com/rn123/japanese_text_analysis/blob/master/notebooks/textual_analysis_hobbit.ipynb)
 
-5. Remembering the Kanji -- Anki statistics and comparison with Kodansha's topical clusters
+5. Remembering the Kanji -- Anki statistics and comparison with Kodansha's topical clusters.
+
+    Experiment with flash card deck of Joyo Kanji using the keyword to character mapping from "Remembering the Kanji" (RTK). The approach
+    taken in RTK is to assign a unique keyword to each character and this experiment attempts to identify the characters (vice words) that
+    cluster toghether by clustering distributed word embeddings. Clustering the English keywords does an "ok" job, but fasttext does a really
+    poor job. Using generic Japanese or Chinese *word* embeddings subword information for each character does not seem to capture the clusters
+    (actually nearest neighbors) of related characters. Ground truth is from the Kodansha Kanji dictionary that includes hand-curated clusters
+    of charaters and associated (multiple) keywords.
+
+    Data from self-study of RTK Anki flash card deck (9 months, over 60,000 flash card repetions) shows patterns of confusion of similar character
+    and keyword meanings. Goal is to suggest character groups that should be studied together -- especially in the settings of learning 
+    domain specific character usage patterns. Notebook has code cells for parsing and charting data from anki sqlite tables (cards, notes, and
+    repetions).
 
 References
 ----------
