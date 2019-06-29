@@ -42,7 +42,7 @@ make background
 Experiments
 -----------
 
-1. Scrape and clean (modern) Japanese text for [源氏物語歌合絵巻](https://github.com/rn123/japanese_text_analysis/blob/master/notebooks/RN%201.0%20Genji%20Data.ipynb).
+1. Scrape and clean (modern) Japanese text for [源氏物語歌合絵巻](https://github.com/rn123/japanese_text_analysis/blob/master/notebooks/1.0-RN-Genji-Data.ipynb).
 
    This website appears to be a late 90's style site built out of frames and using tables for layout. It may have been generated from a version 
    of the text stored in [TEI format](https://en.wikipedia.org/wiki/Text_Encoding_Initiative).
@@ -52,7 +52,7 @@ Experiments
    * Store document in Elasticsearch.
    * Scrape ancient text in preparation for experiment on word usage differences between modern and ancient Japanese versions of Genji.
 
-2. [Extracting and clustering significant terms.](https://github.com/rn123/japanese_text_analysis/blob/master/notebooks/RN%201.0%20Genji%20Clustering%20Significant%20Terms.ipynb)
+2. [Extracting and clustering significant terms.](https://github.com/rn123/japanese_text_analysis/blob/master/notebooks/1.0-RN-Genji-Clustering-Significant-Terms.ipynb)
 
     Standard practice:
     * Extract significant terms and weights using [word level statistics](https://doi.org/10.1209/epl/i2002-00528-3).
@@ -62,11 +62,11 @@ Experiments
     * Cluster reduced word embeddings into topical term lists.
     * Display word distributions for significant terms/clusters.
 
-3. [Dunning's likelihood ratio test comparing text to background corpus.](https://github.com/rn123/japanese_text_analysis/blob/master/notebooks/Statistics%20of%20Surprise%20and%20Coincidence.ipynb)
+3. [Dunning's likelihood ratio test comparing text to background corpus.](https://github.com/rn123/japanese_text_analysis/blob/master/notebooks/1.0-RN-Statistics-of-Surprise-and-Coincidence.ipynb)
 
-4. English fiction example, [The Hobbit.](https://github.com/rn123/japanese_text_analysis/blob/master/notebooks/textual_analysis_hobbit.ipynb)
+4. English fiction example, [The Hobbit.](https://github.com/rn123/japanese_text_analysis/blob/master/notebooks/1.0-RN-Textual-Analysis-Hobbit.ipynb)
 
-5. Remembering the Kanji -- [Anki statistics and comparison with Kodansha's topical clusters.](https://github.com/rn123/japanese_text_analysis/blob/master/notebooks/RN_1.2_anki_statistics.ipynb)
+5. Remembering the Kanji -- [Anki statistics and comparison with Kodansha's topical clusters.](https://github.com/rn123/japanese_text_analysis/blob/master/notebooks/1.0-RN-Anki-Statistics.ipynb)
 
     Experiment with flash card deck of Joyo Kanji using the keyword to character mapping from "Remembering the Kanji" (RTK). The approach
     taken in RTK is to assign a unique keyword to each character and this experiment attempts to identify the characters (vice words) that
