@@ -66,7 +66,7 @@ Experiments
 
 4. English fiction example, [The Hobbit.](https://github.com/rn123/japanese_text_analysis/blob/master/notebooks/textual_analysis_hobbit.ipynb)
 
-5. Remembering the Kanji -- Anki statistics and comparison with Kodansha's topical clusters.
+5. Remembering the Kanji -- [Anki statistics and comparison with Kodansha's topical clusters.](https://github.com/rn123/japanese_text_analysis/blob/master/notebooks/RN_1.2_anki_statistics.ipynb)
 
     Experiment with flash card deck of Joyo Kanji using the keyword to character mapping from "Remembering the Kanji" (RTK). The approach
     taken in RTK is to assign a unique keyword to each character and this experiment attempts to identify the characters (vice words) that
