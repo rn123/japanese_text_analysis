@@ -80,6 +80,8 @@ Experiments
     domain specific character usage patterns. Notebook has code cells for parsing and charting data from anki sqlite tables (cards, notes, and
     repetions).
 
+    *TODO:* Contextual embeddings for characters to resolve multiple senses.
+
 References
 ----------
 
