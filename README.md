@@ -114,6 +114,7 @@ Randall. Encapsulates the Official Jisho.Org API and Also Provides Kanji, Exampl
 Miyazaki, Shigeko. The Kodansha Kanji Dictionary. Edited by Jack Halpern. Updated, Revised edition. New York: Kodansha International, 2013.
 
 
+
 Project Organization
 ------------
 
