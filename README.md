@@ -111,6 +111,8 @@ Takaoka, Kazuma, Sorami Hisamoto, Noriko Kawahara, Miho Sakamoto, Yoshitaka Uchi
 
 Randall. Encapsulates the Official Jisho.Org API and Also Provides Kanji, Example, and Stroke Diagram Search.: Mistval/Unofficial-Jisho-Api. JavaScript, 2019. https://github.com/mistval/unofficial-jisho-api.
 
+Miyazaki, Shigeko. The Kodansha Kanji Dictionary. Edited by Jack Halpern. Updated, Revised edition. New York: Kodansha International, 2013.
+
 
 Project Organization
 ------------
