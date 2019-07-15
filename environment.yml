@@ -6,6 +6,7 @@ dependencies:
   - python=3
   - jupyterlab
   - ipywidgets
+  - nb_conda_kernels
   - pandas
   - umap-learn
   - hdbscan
