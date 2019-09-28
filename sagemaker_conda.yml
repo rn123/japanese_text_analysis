@@ -1,0 +1,16 @@
+name: japanese_text_analysis
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - umap-learn
+  - hdbscan
+  - gensim
+  - jieba
+  - cairosvg
+  - tabulate
+  - elasticsearch
+  - pip:
+    - zhon
+    - segtok
+    - Cihai
