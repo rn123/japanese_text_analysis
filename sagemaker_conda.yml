@@ -1,4 +1,4 @@
-name: japanese_text_analysis
+name: pytorch_p36
 channels:
   - conda-forge
   - defaults
