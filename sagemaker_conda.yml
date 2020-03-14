@@ -1,0 +1,16 @@
+name: pytorch_p36
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - umap-learn
+  - hdbscan
+  - gensim
+  - jieba
+  - cairosvg
+  - tabulate
+  - elasticsearch
+  - pip:
+    - zhon
+    - segtok
+    - Cihai
